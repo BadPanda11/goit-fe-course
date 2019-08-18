@@ -1,6 +1,6 @@
 .wrapper {
   width: 100%;
-  color: #626262;
+  color: #0E1116;
 }
 /* HEADER */
 .page_header {
@@ -75,14 +75,17 @@ input[type="radio"].visually-hidden{
   text-transform: uppercase;
   font-size: 14px;
   color: #b4ad9e;
+  line-height: 17px;
 }
 .description {
   padding-bottom: 40px;
   font-size: 30px;
+  line-height: 36px;
 }
 .notes {
   font-size: 14px;
   line-height: 24px;
+
 }
 .button {
   width: 162px;
