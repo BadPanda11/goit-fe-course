@@ -77,13 +77,15 @@ img{
     /* MAIN */
     /* 1 SECTION */
 .section-name{
+    vertical-align: middle;
     text-align: center;
     font-family: "Roboto",sans-serif;
     font-weight: 900;
     font-size: 48px;
     line-height: 57px;
     text-transform: uppercase;
-    margin-bottom: 130px;
+    margin-bottom: 120px;
+
 }
 .section-name::after{
     content: "";
@@ -113,12 +115,14 @@ img{
   box-sizing: border-box;
   width: 201px;
   padding: 0px 12px;
+  display: inline-block;
 }
 .price{
-  float:right;
+  float: right;
   width: 54px;
   background:rgba(255,255,255,0.44);
   text-align: center;
+  
 }
 .item a{
   text-decoration: none;
@@ -192,7 +196,6 @@ width: 255px;
   color: #555252;
   text-decoration: none;
   text-align: center;
-  
 }
 
 
