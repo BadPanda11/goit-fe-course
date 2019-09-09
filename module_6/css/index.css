@@ -21,6 +21,9 @@ img {
 *::after {
   box-sizing: inherit;
 }
+a {
+  display: block;
+}
 
 /* HEADER STYLES */
 .site-logo a {
@@ -131,7 +134,7 @@ img {
 }
 
 .section_item {
-  width: 28%;
+  
   width: 350px;
   margin-bottom: 100px;
 }
@@ -287,6 +290,7 @@ img {
 .footer_notes a {
   color: #f38181;
   text-decoration: none;
+  display: inline-block;
 }
 form {
   display: inline-flex;
