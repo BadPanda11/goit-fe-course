@@ -1,93 +1,72 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="author" content="romanbeniukh" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/index.css" />
-    <title>module_8</title>
-  </head>
-  <body>
-    <div class="hsimg wrapper">
-      <header class="header ">
-        <h1 class="site-logo"><a href="#">URLAUBSGLÜCK</a></h1>
-        <div class="autorization ">
-          <button class="btn login">Log in</button>
-          <button class="btn signup">Sign up</button>
-          </div>
-        </header>
-      <section class="search ">
-        <h2 class="section_title">Share your holiday dreams</h2>
-        <p class="section_subtitle">
-          And find the perfect partner to fullfill it
-        </p>
-        <button class=" searching_btn">Find your holiday partner</button>
-      </section>
-    </div>
-    
-      <main class="wrapper">
-        <section class="partner_block ">
-          <h2 class="partner_block_title">
-            Meet a partner for your best holiday
-          </h2>
-          <ul class="list ">
-            <li class="list_item ">
-              <figure >
-                <img class="img" src="./img/partners/mustache.png" alt="" />
-                <figcaption class="notes">
-                    <h3 class="partner-name">Bradley Hunter</h3>
-                    <p class="partner-description">
-                      Based in Chicago.I love playing tennis and loud music.
-                    </p>
-                  </figcaption>
-              </figure>
-              
-            </li>
-            <li class="list_item ">
-              <figure >
-                <img class="img chem" src="./img/partners/hair.png" alt="" />
-                <figcaption class="notes">
-                    <h3 class="partner-name">Lucas Marsha</h3>
-                    <p class="partner-description">
-                      I get my inspiration from nature and objects around me. I have
-                      a passion to colours, typography and skateboards.
-                    </p>
-                  </figcaption>
-              </figure>
-              
-            </li>
-            <li class="list_item ">
-              <figure >
-                <img class="img cup" src="./img/partners/smile.png" alt="" />
-                <figcaption class="notes">
-                    <h3 class="partner-name">Heather Walker</h3>
-                    <p class="partner-description">
-                      I'm a happy person that loves cats and climbing on mountains.
-                    </p>
-                  </figcaption>
-              </figure>
-             
-            </li>
-            <li class="list_item ">
-              <figure >
-                <img class="img origami" src="./img/partners/glasses.png" alt="" />
-                <figcaption class="notes">
-                    <h3 class="partner-name">Bradley hunter</h3>
-                    <p class="partner-description">
-                      Based in Chicago.I love playing tennis and loud music.
-                    </p>
-                  </figcaption>
-              </figure>
-              
-            </li>
-          </ul>
-          <button class="partner_wrap__btn">See other partners</button>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/adaptive.css">
+    <title>Module 08</title>
+</head>
+
+<body>
+    <header class="page__header">
+        <div class="container">
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><button href="#" class="navigation__log button">Log in</button></li>
+                    <li class="navigation__item"><button href="#" class="navigation__log button">Sign up</button></li>
+                </ul>
+                <h1 class="promo__logo"><a href="#" class="promo__logo-link link">URLAUBSGLÜCK</a></h1>
+            </nav>
+            <section class="promo__content">
+                <h2 class="promo__title">Share your <span class="promo__title--wrapping">holiday dreams</span></h2>
+                <p class="promo__sub-title">And find the perfect partner to fullfill it</p>
+                <a href="#" class="promo__btn link">Find your holiday partner</a>
+            </section>
+        </div>
+    </header>
+    <main>
+        <section class="partner">
+                <div class="container">
+            <h2 class="partner__title">Meet a partner for your best holiday</h2>
+            <ul class="partner__list">
+                <li class="partner__item">
+                    <div class="partner__wrapper partner__icon--tv">
+                        <img src="./img/partners/mustache.png" alt="person" class="partner__img">
+                    </div>
+                    <h3 class="partner__name">Bradley Hunter</h3>
+                    <p class="partner__info">Based in Chicago. I love playing tennis and loud music.</p>
+                </li>
+                <li class="partner__item partner__item--order2">  <!-- class order can be deleted, it's  only for change the display order -->
+                    <div class="partner__wrapper  partner__icon--chemistry">
+                        <img src="./img/partners/hair.png" alt="person" class="partner__img">
+                    </div>
+                    <h3 class="partner__name">Lucas Marsha</h3>
+                    <p class="partner__info">I get my inspiration from nature and objects around me. I have a passion to
+                        colours, typography and skateboards.</p>
+                </li>
+                <li class="partner__item">
+                    <div class="partner__wrapper  partner__icon--cup">
+                        <img src="./img/partners/smile.png" alt="person" class="partner__img">
+                    </div>
+                    <h3 class="partner__name">Heather Walker</h3>
+                    <p class="partner__info">I'm a happy person that loves cats and climbing on mountains.</p>
+                </li>
+                <li class="partner__item partner__item--order4"> <!-- class order can be deleted, it's  only for change the display order -->
+                    <div class="partner__wrapper  partner__icon--plain">
+                        <img src="./img/partners/glasses.png" alt="person" class="partner__img">
+                    </div>
+                    <h3 class="partner__name">Bradley Hunter</h3>
+                    <p class="partner__info">Based in Chicago. I love playing tennis and loud music.</p>
+                </li>
+            </ul>
+            <button type="button" class="partner__more-btn">See other partners</button>
         </section>
-      </main>
-    
-  </body>
+    </div>
+    </main>
+</body>
+
 </html>

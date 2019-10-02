@@ -1,32 +1,109 @@
 @font-face {
+  font-family: 'Oleo Script Swash Caps';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oleo Script Swash Caps'), local('OleoScriptSwashCaps-Regular'),
+      url('../fonts/oleo-script-swash-caps-v7-latin-regular.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/oleo-script-swash-caps-v7-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* oleo-script-swash-caps-700 - latin */
+@font-face {
+  font-family: 'Oleo Script Swash Caps';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oleo Script Swash Caps Bold'), local('OleoScriptSwashCaps-Bold'),
+      url('../fonts/oleo-script-swash-caps-v7-latin-700.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/oleo-script-swash-caps-v7-latin-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-regular - latin */
+@font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   src: local('Montserrat Regular'), local('Montserrat-Regular'),
-       url('../fonts/montserrat/montserrat-v14-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/montserrat/montserrat-v14-cyrillic_latin-regular.woff') format('woff')
+      url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/montserrat-v14-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* montserrat-700 - latin */
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   src: local('Montserrat Bold'), local('Montserrat-Bold'),
-       url('../fonts/montserrat/montserrat-v14-cyrillic_latin-700.woff2') format('woff2'), 
-       url('../fonts/montserrat/montserrat-v14-cyrillic_latin-700.woff') format('woff')
+      url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/montserrat-v14-latin-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* montserrat-900 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Montserrat Black'), local('Montserrat-Black'),
+      url('../fonts/montserrat-v14-latin-900.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/montserrat-v14-latin-900.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'),
+      url('../fonts/cormorant-garamond-v7-latin-regular.woff2') format('woff2'),
+      /* Super Modern Browsers */
+      url('../fonts/cormorant-garamond-v7-latin-regular.woff') format('woff'),
+      /* Modern Browsers */
+}
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'),
+      url('../fonts/cormorant-garamond-v7-latin-regular.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/cormorant-garamond-v7-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cormorant Garamond Italic'), local('CormorantGaramond-Italic'),
+      url('../fonts/cormorant-garamond-v7-latin-italic.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/cormorant-garamond-v7-latin-italic.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-slab-regular - latin */
 @font-face {
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 400;
   src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
-       url('../fonts/RobotoSlab/roboto-slab-v9-cyrillic_latin-regular.woff2') format('woff2'),
-       url('../fonts/RobotoSlab/roboto-slab-v9-cyrillic_latin-regular.woff') format('woff');
+      url('../fonts/roboto-slab-v9-latin-regular.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/roboto-slab-v9-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
-
-
 
 
 /* GENERAL */
@@ -87,7 +164,7 @@ a {
   display: flex;
 }
 .site-logo a {
-  
+  font-family: "Oleo Script Swash Caps";
   font-size: 26px;
   line-height: 41px;
   color: #fed136;
@@ -131,7 +208,8 @@ a {
 }
 
 .snotes {
-  
+  font-family: "Cormorant Garamond";
+  font-style: italic;
   font-weight: 400;
   margin: 20px 0 0 0;
   font-size: 16px;
@@ -186,7 +264,7 @@ a {
 
 .item_description{
   margin: 0;
-  
+  font-family: "RobotoSlab";
   
 }
 /* CONTACT SECTION */

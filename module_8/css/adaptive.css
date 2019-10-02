@@ -1,0 +1,102 @@
+@media screen and (min-width:576px){
+    .container{
+    max-width: 546px;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+}
+@media screen and (min-width:768px){
+    .container{
+        max-width: 738px;
+        max-width: 100%;
+        margin: 0 auto;
+        }
+    /* ---------------------------promo section------------------------------------ */
+    .page__header{
+        background-image: url(../img/img/tablet.png);
+        background-position: top;
+    }
+    .navigation{
+        height: auto;
+        padding: 20px 40px 146px 40px;
+        flex-direction: row-reverse;
+    }
+    .promo__title{
+        font-size: 52px;
+        margin-bottom: 36px;
+    }
+    .promo__sub-title{
+        font-size: 24px;
+        margin-bottom: 36px;
+        width: auto;
+    }
+    .promo__btn{
+        font-weight: 700;
+    }
+
+    .container{
+        width: 100%;
+        max-width: 748px; 
+        margin: 0 auto;
+    }
+    /* ---------------------------patner section------------------------------------ */
+    .partner{
+        padding-bottom: 40px;
+    }
+    .partner__list{
+        display: flex;
+        flex-flow: row wrap;
+        margin: 0 auto;
+        margin-bottom: 36px;
+        width: 492px;
+    }
+    .partner__item{
+        width: 236px;
+    }
+    .partner__item--order2{
+        order: 2;
+    }
+    .partner__item--order4{
+        order: 4;
+    }
+    /* classes order can be deleted, it's  only for change the display order */
+    .partner__title{
+        margin-bottom: 36px;
+    }
+}
+
+
+@media screen and (min-width:992px){
+    /* ---------------------------promo section------------------------------------ */
+    
+    .container{
+        width: 100%;
+        max-width: 962px;
+        margin: 0 auto;
+    }
+    .page__header{
+        background-image: url(../img/img/desctop.png);
+        padding-bottom: 234px;
+    }
+    .promo__header{
+        padding: 40px 250px 146px 250px;
+    }
+     /* ---------------------------patner section------------------------------------ */
+    .partner__list{
+        width: 942px;
+    }
+    .partner__item{
+        width: 220px;
+    }
+    .partner{
+        padding-bottom: 72px;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .container{
+        max-width: 1170px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
