@@ -180,11 +180,11 @@ header,
     transition: .2s linear;
 }
 
-/* ---------------------------HEADER------------------------------------------ */
+/* ---------------------------HEADER------------------------------------- */
 .banner {
     width: 100%;
     padding-top: 26px;
-    background-image: url(../img/banner_bg.jpg);
+    background-image: url(../img/headerbg/header-min.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
