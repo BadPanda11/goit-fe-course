@@ -358,42 +358,42 @@ header,
 }
 
 .services__item--alarm::before {
-    background: url(../img/icons/services/alarm.svg);
+    background: url(../img/icons/services/ALARM-min.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .services__item--line::before {
-    background: url(../img/icons/services/design.svg);
+    background: url(../img/icons//services/LINE-min.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .services__item--pc::before {
-    background: url(../img/icons/services/pc.svg);
+    background: url(../img/icons/services/COMPUTER-min.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .services__item--book::before {
-    background: url(../img/icons/services/book.svg);
+    background: url(../img/icons//services/BOOK-min.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .services__item--home::before {
-    background: url(../img/icons/services/house.svg);
+    background: url(../img/icons/services/HOME-min.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .services__item--picture::before {
-    background: url(../img/icons/services/digital.svg);
+    background: url(../img/icons/services/IMAGE-min.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
