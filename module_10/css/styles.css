@@ -59,11 +59,12 @@
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* ______________________________mass styles ----------------------------------- */
+/* ______________________________general styles __________________________________*/
 :root {
-    --main-color-pink: #f38181;
+    
     --main-color-blue: #95e1d3;
     --main-color-yellow: #fce38a;
+    --main-color-pink: #f38181;
 }
 
 .container {
@@ -84,13 +85,7 @@
     padding: 0;
 }
 
-.link,
-.social__icon-link {
-    display: block;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    text-decoration: none;
-}
+
 
 .btn {
     display: block;
@@ -103,23 +98,19 @@
 .navigation__link {
     text-transform: uppercase;
 }
+.link,
+.social__icon-link {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 
 .navigation__list {
     list-style: none;
 }
 
-header,
-.navigation__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: baseline;
-    -ms-flex-align: baseline;
-    align-items: baseline;
-}
+
 
 .logo,
 .navigation__link,
@@ -143,6 +134,18 @@ header,
 .team__item-description,
 .footer__input-mail {
     font-family: "Roboto";
+}
+header,
+.navigation__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
 }
 
 .logo__link,
@@ -180,7 +183,7 @@ header,
     transition: .2s linear;
 }
 
-/* ---------------------------HEADER------------------------------------- */
+/* ____________________________HEADER___________ */
 .banner {
     font-family: 'Montserrat';
     width: 100%;
@@ -291,7 +294,7 @@ header,
     font-weight: 700;
 }
 
-/* -----------------------------------SECTION SERVICES----------------------------------------- */
+/*______________________SECTION SERVICES_________________________ */
 
 .services {
     padding-top: 40px;
@@ -407,7 +410,7 @@ header,
     text-align: left;
 }
 
-/*------------------------------------------------------- Section TEAM --------------------------------------------------*/
+/*______________________  TEAM __________________________*/
 .team {
     padding-top: 84px;
     padding-bottom: 84px;
@@ -557,7 +560,7 @@ header,
     box-shadow: 10px 10px 1px var(--main-color-blue);
 }
 
-/* -----------------------------------FOOTER-------------------------------------------- */
+/* _____________________________FOOTER______________________*/
 .footer-bottom {
     height: 60px;
     -webkit-box-pack: justify;
